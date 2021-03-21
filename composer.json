@@ -1,0 +1,23 @@
+{
+    "name": "miguelahc/prysgr",
+    "description": "App Web de Reservas para Restaurantes",
+    "type": "proyect",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miguel Huanacchiri",
+            "email": "miguelahc94@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.0",
+        "microsoft/azure-storage-common": "~1.4",
+        "microsoft/azure-storage-blob": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MicrosoftAzure\\Storage\\Blob\\": "src/Blob"
+        }
+    }
+}
